@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Franziska" content="">
+    <link rel="icon" href="assets/ico/favicon.ico">
+
+    <title>MyBlog</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <button type="submit" class="btn btn-danger">Log Out</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Titel:</span>
+        <input type="text" class="form-control" aria-describedby="basic-addon1">
+        <span class="input-group-addon" id="basic-addon2">Datum:</span>
+        <input type="text" class="form-control" aria-describedby="basic-addon2">
+        <span class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hintergrundfarbe &nbsp&nbsp<span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a value="?bgcolor=red">Rot</a></li>
+          <li><a href="#">Blau</a></li>
+          <li><a href="#">Gelb</a></li>
+        </ul>
+        <button class="btn btn-success" type="submit">Submit!</button>
+      </span>
+      </div>
+      <div class="form-horizontal">
+        <div class="form-group">
+          <textarea class="form-control" rows="30" placeholder="Text..." required></textarea>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
